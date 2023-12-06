@@ -1,4 +1,5 @@
 const range = n => Array.from(Array(n).keys())
+const zip = (a, b) => a.map((k, i) => [k, b[i]])
 const transpose = matrix => {
     return matrix[0].map((col, i) => matrix.map(row => row[i]))
 }
