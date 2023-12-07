@@ -22,4 +22,5 @@ module.exports = {
     range,
     repeatArray,
     transpose,
+    zip
 }
